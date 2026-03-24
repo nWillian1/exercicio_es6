@@ -1,4 +1,3 @@
-// 1º Passo: Criar um Array de objetos com atributos nome e notas de alunos
 
 const alunos = [
         {nome: "João", nota: 10},
@@ -10,8 +9,6 @@ const alunos = [
         {nome: "Rafael", nota: 4},
         {nome: "Isabela", nota: 3},
 ]
-
-// 2º Passo: Criar uma função que irá retornar alunos com nota maior ou igual a 6.
 
 const alunosAprovados = alunos.filter(aluno => aluno.nota >= 6);
 
